@@ -1,0 +1,243 @@
+body {
+  background: #EAF1F1; }
+
+ul {
+  list-style: none;
+  padding: 0; }
+
+label {
+  font-weight: normal; }
+
+.noPadding {
+  padding: 0; }
+
+.mainContainer {
+  padding: 0; }
+
+.innerContainer {
+  background: #FFF;
+  padding: 10px 0; }
+
+/*********************************************************************
+* Left Panel Styles Start
+*********************************************************************/
+.leftPanel {
+  /*border-right: 1px solid blue;*/
+  padding: 0;
+  color: #6A569E; }
+
+.leftPanel .innerContainer {
+  height: 100vh; }
+
+.leftPanel label {
+  display: block; }
+
+.leftPanel .logoRow {
+  text-align: center; }
+
+.leftPanel .logoRow .logoTxt {
+  font-size: 30px;
+  font-weight: bold; }
+
+.leftPanel .logoRow .fa-gamepad {
+  font-size: 40px;
+  margin-left: 10px; }
+
+.leftPanel .shortProfile {
+  text-align: center; }
+
+.leftPanel .shortProfile .profilePic {
+  width: 100px;
+  height: 100px;
+  margin-bottom: 15px; }
+
+.leftPanel .shortProfile .name {
+  font-size: 20px; }
+
+.leftPanel .primary-nav {
+  padding: 5px 0; }
+
+.leftPanel .primary-nav li a {
+  display: block;
+  border-bottom: 1px solid #C7C7C7;
+  padding: 5px 15px;
+  text-decoration: none !important; }
+
+.leftPanel .primary-nav li:hover a,
+.leftPanel .primary-nav li.active a {
+  background: #6A569E;
+  color: #FFF; }
+
+.leftPanel .primary-nav .fa {
+  margin-right: 10px; }
+
+/* ---------------------------------------------------------------- */
+/*********************************************************************
+* Mid Panel Styles Start
+*********************************************************************/
+.midPanel .topNav {
+  height: 40px;
+  background: #6A569E;
+  margin: 0 -15px;
+  padding: 0 10px; }
+
+.midPanel .topNav .fa {
+  color: #FFF;
+  padding: 13px 7px; }
+
+.midPanel .widgetBlock {
+  padding: 7px; }
+
+.midPanel .widgetBlock .innerContainer {
+  height: 300px;
+  background: #FFF;
+  padding: 0; }
+
+.midPanel .widgetBlock header {
+  border-bottom: 1px solid #C7C7C7;
+  font-weight: bold;
+  padding: 5px 15px;
+  height: 30px; }
+
+#block1 .svgContainer {
+  padding: 15px;
+  height: 100%; }
+
+#block1 .svgContainer #svg1 {
+  background: #008296;
+  height: 100%;
+  width: 100%; }
+
+#block1 .axis path {
+  fill: none;
+  stroke: #777;
+  shape-rendering: crispEdges; }
+
+#block1 .axis text {
+  font-family: Lato;
+  font-size: 13px; }
+
+#block2 .cardsContainer {
+  height: 270px;
+  overflow: auto; }
+
+#block2 .card {
+  padding: 10px 3px;
+  position: relative;
+  height: 60px; }
+
+#block2 .card .profilePic {
+  position: absolute;
+  top: 10px;
+  left: 5px;
+  height: 40px;
+  width: 40px; }
+
+#block2 .card .nameNBadge {
+  padding: 0 50px; }
+
+#block2 .card .nameNBadge .name {
+  font-weight: bold;
+  display: block; }
+
+#block2 .card .nameNBadge .badges .s-badge {
+  height: 10px;
+  width: 10px; }
+
+#block2 .card .pointsBlock {
+  position: absolute;
+  top: 10px;
+  right: 5px;
+  font-size: 13px;
+  text-align: right;
+  width: 40px;
+  overflow: hidden; }
+
+#block2 .card .pointsBlock .points {
+  font-weight: bold;
+  display: block; }
+
+#block2 .card section {
+  padding: 2px; }
+
+#block3 .progress-meter text {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 24px;
+  font-weight: bold; }
+
+#block4 .svgContainer {
+  /*padding: 15px;*/
+  height: 270px; }
+
+#block4 .svgContainer #svg2 {
+  /*background: rgb(0,130,150);*/
+  height: 100%;
+  width: 100%; }
+
+#block4 .axis path {
+  fill: none;
+  stroke: #777;
+  shape-rendering: crispEdges; }
+
+#block4 .axis text {
+  font-family: Lato;
+  font-size: 13px; }
+
+#block4 .btnPanel {
+  display: inline-block;
+  float: right; }
+
+/* ---------------------------------------------------------------- */
+/*********************************************************************
+* Right Panel Styles Start
+*********************************************************************/
+.rightPanel {
+  padding: 0;
+  height: 100vh;
+  overflow: auto;
+  background: #FFF; }
+
+.rightPanel header {
+  background: #311D72;
+  height: 40px;
+  /*margin: 0 -15px;*/
+  color: #FFF;
+  padding: 10px 15px;
+  position: fixed;
+  z-index: 9;
+  width: 100%; }
+
+.rightPanel header .fa {
+  /*border: 1px solid #FFF;*/
+  padding: 1px 3px;
+  margin-right: 5px; }
+
+.rightPanel .feedsContainer {
+  margin-top: 40px; }
+
+.rightPanel .feedLet {
+  position: relative;
+  background: #FFF;
+  padding: 10px 10px 10px 55px; }
+
+.rightPanel .feedLet + .feedLet {
+  border-top: 2px solid #EAF1F1; }
+
+.rightPanel .feedLet .profilePic {
+  height: 40px;
+  width: 40px;
+  position: absolute;
+  left: 7px;
+  top: 10px; }
+
+.rightPanel .feedLet .name {
+  display: block;
+  font-weight: bold; }
+
+.rightPanel .feedLet .timeElapsed {
+  position: absolute;
+  top: 12px;
+  right: 10px;
+  font-size: 12px; }
+
+/*# sourceMappingURL=style.css.map */
